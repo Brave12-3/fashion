@@ -1,0 +1,20 @@
+src/
+├── lib/
+│   ├── supabase.js        ← Supabase client (reads .env)
+│   ├── AuthContext.jsx    ← Session state for whole app
+│   └── products.js        ← All DB queries (get/create/update/delete + image upload)
+├── admin/
+│   ├── components/
+│   │   ├── ProtectedRoute.jsx  ← Blocks non-logged-in users
+│   │   ├── AdminSidebar.jsx    ← Collapsible sidebar nav
+│   │   ├── AdminLayout.jsx     ← Dark admin shell
+│   │   └── ProductForm.jsx     ← Shared add/edit form with image upload
+│   └── pages/
+│       ├── AdminLoginPage.jsx       → #admin/login
+│       ├── AdminDashboardPage.jsx   → #admin
+│       ├── AdminProductsPage.jsx    → #admin/products
+│       ├── AdminAddProductPage.jsx  → #admin/products/new
+│       └── AdminEditProductPage.jsx → #admin/products/:id/edit
+├── App.jsx   ← Updated with full hash router + AuthProvider
+supabase-setup.sql   ← Run once in Supabase SQL Editor
+.env.example         ← Copy → .env, fill your keys

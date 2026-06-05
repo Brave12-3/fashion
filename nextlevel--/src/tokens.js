@@ -1,0 +1,16 @@
+export const S = {
+  navy:      "#00113a",
+  navyDark:  "#002366",
+  gold:      "#e9c349",
+  goldDim:   "rgba(233,195,73,0.75)",
+  goldFaint: "rgba(233,195,73,0.15)",
+  goldBg:    "rgba(233,195,73,0.08)",
+  cream:     "#fcf9f8",
+  surface:   "#f6f3f2",
+  surfaceMid:"#f0eded",
+  ink:       "#1c1b1b",
+  muted:     "#444650",
+  border:    "rgba(197,198,210,0.35)",
+  serif:     "'Playfair Display', Georgia, serif",
+  sans:      "'Montserrat', system-ui, sans-serif",
+};
