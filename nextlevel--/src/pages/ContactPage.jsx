@@ -168,7 +168,7 @@ export default function ContactPage() {
       <section style={{ background:"#f6f3f2", padding:"clamp(48px,8vw,80px) clamp(20px,5vw,80px)" }}>
         <div style={{ maxWidth:1440, margin:"0 auto" }}>
           <div style={{ textAlign:"center", marginBottom:"clamp(36px,5vw,56px)" }}>
-            <h2 style={{ fontFamily:S.serif, fontSize:"clamp(24px,5vw,38px)", fontWeight:600, color:S.navy, marginBottom:12 }}>Global Presence</h2>
+            <h2 style={{ fontFamily:S.serif, fontSize:"clamp(24px,5vw,38px)", fontWeight:600, color:S.navy, marginBottom:12 }}>Around Ethiopia</h2>
             <div style={{ width:96, height:3, background:"#735c00", margin:"0 auto" }} />
           </div>
           <div className="locations-grid">
